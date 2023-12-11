@@ -71,17 +71,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | the query builder class.
 */
 $active_group = 'default';
+
 $query_builder = TRUE;
+
 $db['default'] = array(
 	'dsn'	=> '',
 	// 'hostname' => 'rss.cbhrg1lzyru7.eu-west-1.rds.amazonaws.com',
 	// 'username' => 'rentsmallsmall_buytolet',
 
 	'hostname' => 'dashboard.cojxxisixk5c.eu-west-1.rds.amazonaws.com',
+
 	'username' => 'rentsmallsmall_buytolet',
 
 	'password' => 'Buytolet!2021',
+
  	'database' => 'rentsmallsmall_dev_portal',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
